@@ -14,4 +14,4 @@ Here are the main scripts you might be interested in:
 * `tcfp_basic_eval_XGB.ipynb`: Calculating basic stats (e.g., confusion matrix) for XGBoost model
 * `calc_genesis_incidence_5day.ipynb`: Estimating expected TC genesis probabilities (positive labels) for 1, 5, and 7 day forecasts
 
-* I think the preprocessing functions and code in the `create_simple_model_training_file` and `explore_simple_model_*` notebooks will ultimately be the most useful to you. The documentation for the TCFP input predictors is quite thorough--Jack or Chris S. can point you in the right directions. 
+I think the preprocessing functions and code in the `create_simple_model_training_file` and `explore_simple_model_*` notebooks will ultimately be the most useful to you. The documentation for the TCFP input predictors is quite thorough--Jack or Chris S. can point you in the right directions. The trained models are in the `tar.gz` file (they will end with `.joblib`). I'm not sure they will work on a different machine--I think they are portable but I can't remember. I figured I'd give them to you anyway.
